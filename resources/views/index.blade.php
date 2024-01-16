@@ -68,31 +68,31 @@
             <ul class="navbar-list">
 
               <li>
-                <a href="#home" class="navbar-link" data-nav-link>WHO WE ARE</a>
+                <a href="#who" class="navbar-link" data-nav-link>WHO WE ARE</a>
               </li>
 
               <li>
-                <a href="#about" class="navbar-link" data-nav-link>WHAT WE DO</a>
+                <a href="#what" class="navbar-link" data-nav-link>WHAT WE DO</a>
               </li>
 
               <li>
-                <a href="#service" class="navbar-link" data-nav-link>CONTACT US</a>
+                <a href="#contact" class="navbar-link" data-nav-link>CONTACT US</a>
               </li>
 
               <li>
-                <a href="#property" class="navbar-link" data-nav-link>BLOG</a>
+                <a href="#blog" class="navbar-link" data-nav-link>BLOG</a>
               </li>
 
               <li>
-                <a href="#blog" class="navbar-link" data-nav-link>CAREERS</a>
+                <a href="careers" class="navbar-link" data-nav-link>CAREERS</a>
               </li>
 
               <li>
-                <a href="#contact" class="navbar-link" data-nav-link>MEDIA CENTRE</a>
+                <a href="#media" class="navbar-link" data-nav-link>MEDIA CENTRE</a>
               </li>
 
               <li>
-                <a href="#contact" class="navbar-link" data-nav-link>MEDIA CENTRE</a>
+                <a href="#investor" class="navbar-link" data-nav-link>Investor</a>
               </li>
 
             </ul>
@@ -1327,8 +1327,16 @@
               <p class="footer-list-title">Company</p>
             </li>
 
+        <li>
+              <a href="#" class="footer-link">Who we are</a>
+            </li>
+
             <li>
-              <a href="#" class="footer-link">About</a>
+              <a href="#" class="footer-link">What we do</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
             </li>
 
             <li>
@@ -1336,19 +1344,20 @@
             </li>
 
             <li>
-              <a href="#" class="footer-link">All Products</a>
+              <a href="#" class="footer-link">Career</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Locations Map</a>
+              <a href="#" class="footer-link">Media centre</a>
+            </li>
+
+
+            <li>
+              <a href="#" class="footer-link">Faq</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">FAQ</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Contact us</a>
+              <a href="#" class="footer-link">Investor</a>
             </li>
 
           </ul>
