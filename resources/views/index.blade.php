@@ -149,7 +149,7 @@
 
       <video autoplay loop muted plays-inline class="herovideo" > 
         
-        <source src="{{ asset('photo/video/Video.mp4') }}" type="video/mp4"> </video>
+        <source src="{{ asset('photo/video/Videoo.mp4') }}" type="video/mp4"> </video>
   
        
         <div class="container">
@@ -1252,7 +1252,7 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo-light.png" alt="VBC logo">
+            <img src="{{ asset('photo/photos/vbclogo.png') }}" alt="VBC logo">
           </a>
 
           <p class="section-text">
