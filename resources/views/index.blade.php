@@ -168,11 +168,10 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
             </p> 
 
-            <button class="btn">Make An Enquiry</button>
+            <button onclick="openPopup()" class="btn">Make An Enquiry</button>
             <div style="display: flex; justify-content: space-between;">
         
-        <button onclick="openPopup()" style="padding: 10px 20px; background-color: #000; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Make a Enquire</button>
-    </div>
+    
 
 
     <!-- Popup content -->
@@ -185,11 +184,14 @@
             <label for="name">Name</label><br>
             <input type="text" id="name" name="name" required><br><br>
             
-            <label for="email">email id</label><br>
-            <input type="text" id="email" name="buildingBlock" required><br><br>
+            <label for="email">Email Id</label><br>
+            <input type="email" id="email" name="buildingBlock" required><br><br>
             
             <label for="mobile">Mobile number</label><br>
-            <input type="text" id="mobile" name="mobile"><br><br>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}"><br><br>
+
+
+   
             
             <button type="submit" style="padding: 8px 16px; background-color: #000; color: white; border: none; border-radius: 4px; cursor: pointer;">Save and Continue</button>
         </form>
@@ -1252,7 +1254,7 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="{{ asset('photo/photos/vbclogo.png') }}" alt="VBC logo">
+            <img src="{{ asset('photo/photos/vbclogo.png') }}" class="w-100" alt="VBC logo">
           </a>
 
           <p class="section-text">
