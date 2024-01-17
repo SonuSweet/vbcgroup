@@ -1294,7 +1294,7 @@ CONSTRUCTIONS </span>
               <a href="#" class="contact-link">
                 <ion-icon name="location-outline"></ion-icon>
 
-                <address>Banglore</address>
+                <address>Beretana Agrahara, Hosur Main Road, Beretana Agrahara, Bangalore, Karnataka, India 560100</address>
               </a>
             </li>
 
