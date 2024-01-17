@@ -38,5 +38,9 @@ Route::get('/auth/callback', function () {
  
     // $user->token
 });
-
+Route::get('/force', function () {
+    exec('/usr/bin/git pull origin main 2>&1', $output);
+    echo json_encode($output);
+    return response(['message'=>"success"]);
+});
 require __DIR__.'/auth.php';
