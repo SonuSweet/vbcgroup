@@ -159,13 +159,14 @@
             <p class="hero-subtitle">
               <ion-icon name="home"></ion-icon>
 
-              <span>Real Estate Agency</span>
+              <span style="color:blue;" > VBC: VIJAYA BHASKARA
+CONSTRUCTIONS </span>
             </p>
 
-            <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
+            <h2 class="h1 hero-title" style="color:white;" >Find Your Dream House By Us</h2>
 
-            <p class="hero-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+            <p class="hero-text" style="color:white;">
+            Crafting Opulent Living Spaces with International Quality, Precision, and Careful Aesthetics.
             </p> 
 
             <button onclick="openPopup()" class="btn">Make An Enquiry</button>
