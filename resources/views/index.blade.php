@@ -149,7 +149,7 @@
 
       <video autoplay loop muted plays-inline class="herovideo" > 
         
-        <source src="{{ asset('photo/video/Videoo.mp4') }}" type="video/mp4"> </video>
+        <source src="{{ asset('photo/video/video.mp4') }}" type="video/mp4"> </video>
   
        
         <div class="container">
