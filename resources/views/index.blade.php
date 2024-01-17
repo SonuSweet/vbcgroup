@@ -159,7 +159,7 @@
             <p class="hero-subtitle">
               <ion-icon name="home"></ion-icon>
 
-              <span style="color:blue;" > VBC: VIJAYA BHASKARA
+              <span style="color:white;" > VBC: VIJAYA BHASKARA
 CONSTRUCTIONS </span>
             </p>
 
@@ -274,11 +274,11 @@ CONSTRUCTIONS </span>
             </ul>
 
             <p class="callout">
-              "Enimad minim veniam quis nostrud exercitation
-              llamco laboris. Lorem ipsum dolor sit amet"
+              "Elevating Urban Living Responsibly: VBC Innovates with Sustainable Solutions, Technology, 
+              and People-Driven Excellence, Setting New Standards in Real Estate."
             </p>
 
-            <a href="#service" class="btn">Our Services</a>
+            <a href="#service" class="btn" style="color:black; ">Our Services</a>
 
           </div>
 
@@ -382,6 +382,29 @@ CONSTRUCTIONS </span>
         </div>
       </section>
 
+      <section class="service" id="service" Style="back">
+        <div class="container">
+
+          <p class="section-subtitle">Our Gallary</p>
+
+          <!-- <h2 class="h2 section-title">Slides</h2> -->
+
+      <div id="slider-container">
+  <div class="slider">
+    <div class="slide"><img src="{{ asset('photo/photos/1.png') }}" alt="Slide 1"></div>
+    <div class="slide"><img src="{{ asset('photo/photos/2.png') }}" alt="Slide 2"></div>
+    <div class="slide"><img src="{{ asset('photo/photos/3.png') }}" alt="Slide 3"></div>
+    <div class="slide"><img src="{{ asset('photo/photos/4.png') }}" alt="Slide 4"></div>
+    <div class="slide"><img src="{{ asset('photo/photos/5.png') }}" alt="Slide 5"></div>
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+</section>
+
+
+
 
 
 
@@ -437,7 +460,7 @@ CONSTRUCTIONS </span>
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>₹34,900</strong>/Month
                   </div>
 
                   <h3 class="h3 card-title">
@@ -445,7 +468,7 @@ CONSTRUCTIONS </span>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  Escape to Serene Haven: VBC Group's 4-BHK Luxury Villa - A Symphony of Comfort and Elegance
                   </p>
 
                   <ul class="card-list">
@@ -563,7 +586,7 @@ CONSTRUCTIONS </span>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  Indulge in Opulence: Royal Retreat Villa by VBC Group - Where Panoramic Views Meet Luxurious Living.
                   </p>
 
                   <ul class="card-list">
@@ -673,7 +696,7 @@ CONSTRUCTIONS </span>
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>₹34,900</strong>/Month
                   </div>
 
                   <h3 class="h3 card-title">
@@ -681,7 +704,7 @@ CONSTRUCTIONS </span>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  Nature's Embrace: VBC Group's Tranquil Oasis Villa - 3-BHK Bliss in a Serene, Idyllic Setting.
                   </p>
 
                   <ul class="card-list">
@@ -791,7 +814,7 @@ CONSTRUCTIONS </span>
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>₹34,900</strong>/Month
                   </div>
 
                   <h3 class="h3 card-title">
@@ -799,7 +822,8 @@ CONSTRUCTIONS </span>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  Unleash Luxury: VBC Group's 6-BHK Elegant Bliss Villa - Modern Marvel for Sophisticated Living.
+
                   </p>
 
                   <ul class="card-list">
@@ -1063,7 +1087,7 @@ CONSTRUCTIONS </span>
                         <a href="#" class="card-meta-link">
                           <ion-icon name="person"></ion-icon>
 
-                          <span>by: Admin</span>
+                          <span>by: Kesav Reddy</span>
                         </a>
                       </li>
 
@@ -1078,7 +1102,7 @@ CONSTRUCTIONS </span>
                     </ul>
 
                     <h3 class="h3 blog-title">
-                      <a href="#">The Most Inspiring Interior Design Of 2021</a>
+                      <a href="#">The Most Inspiring Interior Design Of 2023</a>
                     </h3>
 
                   </div>
@@ -1087,7 +1111,7 @@ CONSTRUCTIONS </span>
                     <div class="publish-date">
                       <ion-icon name="calendar"></ion-icon>
 
-                      <time datetime="2022-27-04">Apr 27, 2023</time>
+                      <time datetime="2023-02-04">Apr 2, 2023</time>
                     </div>
 
                     <a href="#" class="read-more-btn">Read More</a>
@@ -1115,7 +1139,7 @@ CONSTRUCTIONS </span>
                         <a href="#" class="card-meta-link">
                           <ion-icon name="person"></ion-icon>
 
-                          <span>by: Admin</span>
+                          <span>by: E Sonai</span>
                         </a>
                       </li>
 
@@ -1139,7 +1163,7 @@ CONSTRUCTIONS </span>
                     <div class="publish-date">
                       <ion-icon name="calendar"></ion-icon>
 
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                      <time datetime="2022-27-04">Apr 30, 2023</time>
                     </div>
 
                     <a href="#" class="read-more-btn">Read More</a>
@@ -1168,7 +1192,7 @@ CONSTRUCTIONS </span>
                         <a href="#" class="card-meta-link">
                           <ion-icon name="person"></ion-icon>
 
-                          <span>by: Admin</span>
+                          <span>by: Sonu Sah</span>
                         </a>
                       </li>
 
@@ -1192,7 +1216,7 @@ CONSTRUCTIONS </span>
                     <div class="publish-date">
                       <ion-icon name="calendar"></ion-icon>
 
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
+                      <time datetime="2022-27-04">Apr 27, 2023</time>
                     </div>
 
                     <a href="#" class="read-more-btn">Read More</a>
@@ -1259,8 +1283,10 @@ CONSTRUCTIONS </span>
           </a>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
-          </p>
+          VBC: Elevating Living Standards with Precision and Care.
+           Experience the epitome of opulence as we celebrate life through meticulously crafted,
+            internationally acclaimed spaces. Your home, our commitment – VBC: Growing with Care.
+        </p>
 
           <ul class="contact-list">
 
@@ -1273,18 +1299,18 @@ CONSTRUCTIONS </span>
             </li>
 
             <li>
-              <a href="tel:7033879015" class="contact-link">
+              <a href="tel:+91 94944 68858" class="contact-link">
                 <ion-icon name="call-outline"></ion-icon>
 
-                <span>7033879015</span>
+                <span>+91 94944 68858</span>
               </a>
             </li>
 
             <li>
-              <a href="mailto:contact@homeverse.com" class="contact-link">
+              <a href="mailto:potla.rama@gmail.com" class="contact-link">
                 <ion-icon name="mail-outline"></ion-icon>
 
-                <span>tech@callvcal.com</span>
+                <span>potla.rama@gmail.com</span>
               </a>
             </li>
 
@@ -1436,7 +1462,7 @@ CONSTRUCTIONS </span>
       <div class="container">
 
         <p class="copyright">
-          &copy; 2024 <a href="#">callvcal</a>. All Rights Reserved
+          &copy; 2024 <a href="#">VBC Group</a>. All Rights Reserved
         </p>
 
       </div>
@@ -1475,6 +1501,29 @@ CONSTRUCTIONS </span>
             document.getElementById('popup').style.display = 'none';
         }
     </script>
+<script>
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    const slider = document.querySelector('.slider');
+    currentSlide = index;
+    slider.style.transform = `translateX(${-index * 100}%)`;
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % 5;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + 5) % 5;
+    showSlide(currentSlide);
+  }
+
+  setInterval(nextSlide, 3000); // Auto slide every 3 seconds
+</script>
+
+
 
 </body>
 
