@@ -1,0 +1,162 @@
+body {
+    background-color: #f4f7fa;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+.m-more-less-content {
+    span {
+        display: inline;
+    }
+
+    .m-show-more, .m-show-less {
+        color: blue;
+        cursor: pointer;
+        font-style: italic;
+    }
+
+    .m-show-more {
+        &:before{
+            content: " ... more";
+        }
+    }
+
+    .m-more-text {
+        display: none;
+    }
+
+    .m-show-less {
+        display: none;
+        &:before{
+            content: " less";
+        }
+    }
+
+    &.m-display-more {
+        .m-show-more {
+            display: none;
+        }
+        .m-more-text {
+            display: inline;
+        }
+        .m-show-less {
+            display: inline;
+        }
+    }
+}
+
+.content-wrapper {
+    text-align: center;
+    max-width: 500px; /* Reduced width */
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Reduced padding */
+    animation: fadeIn 1s ease-in-out;
+}
+
+.logo {
+    width: 100px; /* Reduced logo size */
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px; /* Reduced font size */
+    font-weight: bold;
+    color: #2d89ef;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px; /* Reduced font size */
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: left;
+    font-size: 14px; /* Reduced font size */
+    line-height: 1.6; /* Adjusted line height */
+    color: #333;
+    margin-top: 20px;
+    font-style: italic;
+    position: relative;
+    transition: height 0.3s ease-in-out;
+}
+
+.read-more {
+    color: #2d89ef;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #2d89ef;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #2d89ef;
+    color: #fff;
+}
+
+.form-wrapper {
+    margin-top: 20px; /* Reduced margin-top */
+}
+
+.form-wrapper .form-control {
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px; /* Reduced padding */
+}
+
+.btn-submit {
+    background-color: #2d89ef;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px; /* Reduced padding */
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #2377d3;
+}
+
+.contact-info {
+    margin-top: 20px; /* Reduced margin-top */
+    animation: fadeIn 2s ease-in-out;
+}
+
+.contact-info p {
+    font-size: 12px; /* Reduced font size */
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #2d89ef;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+form input:focus {
+    border-color: #2d89ef; /* Border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 3px #2d89ef; /* Add a subtle glow */
+}
