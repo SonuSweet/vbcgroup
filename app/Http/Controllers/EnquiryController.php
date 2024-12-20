@@ -16,6 +16,9 @@ class EnquiryController extends Controller
         ]);
 
         Enquiry::create($validatedData);
+         
+
+        return redirect()->to('/thank-you');
 
         return redirect()->back()->with('success', 'Thank you! Your enquiry has been submitted.');
     }

@@ -51,3 +51,6 @@ Route::get('/marketing', function () {
 });
 
 Route::post('/enquiry', [EnquiryController::class, 'store'])->name('enquiries.store');
+Route::get('/thank-you', function () {
+    return view('thank-you');
+})->name('thank-you');
