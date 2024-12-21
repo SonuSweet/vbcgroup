@@ -15,7 +15,7 @@
   <meta property="og:url" content="https://vbcgroup.in"> <!-- Replace with your website URL -->
   <meta property="og:title" content="VBC Group - Construction and Innovation">
   <meta property="og:description" content="Discover innovative construction solutions with VBC Group. Your trusted partner in construction, research, and design.">
-  <meta property="og:image" content="{{ asset('photo/photos/marketing.png') }}"> <!-- Replace with your thumbnail image URL -->
+  <meta property="og:image" content="{{ asset('photo/photos/ads.png') }}"> <!-- Replace with your thumbnail image URL -->
   <meta property="og:image:alt" content="VBC Group Logo">
 
   <!-- Twitter Meta Tags for Sharing -->
@@ -23,7 +23,7 @@
   <meta name="twitter:url" content="https://yourwebsite.com"> <!-- Replace with your website URL -->
   <meta name="twitter:title" content="VBC Group - Construction and Innovation">
   <meta name="twitter:description" content="Discover innovative construction solutions with VBC Group. Your trusted partner in construction, research, and design.">
-  <meta name="twitter:image" content="{{ asset('photo/photos/marketing.png') }}"> <!-- Replace with your thumbnail image URL -->
+  <meta name="twitter:image" content="{{ asset('photo/photos/ads.png') }}"> <!-- Replace with your thumbnail image URL -->
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
@@ -74,31 +74,23 @@
             <ul class="navbar-list">
 
               <li>
-                <a href="#who" class="navbar-link" data-nav-link>WHO WE ARE</a>
+                <a href="/" class="navbar-link" data-nav-link>WHO WE ARE</a>
               </li>
 
               <li>
-                <a href="#what" class="navbar-link" data-nav-link>WHAT WE DO</a>
+                <a href="/" class="navbar-link" data-nav-link>WHAT WE DO</a>
               </li>
 
               <li>
-                <a href="#contact" class="navbar-link" data-nav-link>CONTACT US</a>
+                <a href="/" class="navbar-link" data-nav-link>CONTACT US</a>
               </li>
 
               <li>
-                <a href="#blog" class="navbar-link" data-nav-link>BLOG</a>
-              </li>
+                <a href="/" class="navbar-link" data-nav-link>BLOG</a>
+              </li>         
 
               <li>
-                <a href="careers" class="navbar-link" data-nav-link>CAREERS</a>
-              </li>
-
-              <li>
-                <a href="#media" class="navbar-link" data-nav-link>MEDIA CENTRE</a>
-              </li>
-
-              <li>
-                <a href="#investor" class="navbar-link" data-nav-link>Investor</a>
+                <a href="/" class="navbar-link" data-nav-link>MEDIA CENTRE</a>
               </li>
 
             </ul>
