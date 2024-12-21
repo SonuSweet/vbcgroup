@@ -3,6 +3,10 @@
 namespace App\Admin\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\Enquiry;
+use App\Models\Tracking;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
 use OpenAdmin\Admin\Admin;
 use OpenAdmin\Admin\Controllers\Dashboard;
 use OpenAdmin\Admin\Layout\Column;
@@ -13,24 +17,31 @@ class HomeController extends Controller
 {
     public function index(Content $content)
     {
+        // Fetching counts for different data points
+        $adminsCount = DB::table('admin_users')->count();
+       
+    
+        // Fetching order-related statistics
+    
+       
+        
+    
+        // Organizing data to be passed to the view
+        $data = [
+            'counts' => [
+               
+                ['name' => "Enquires", 'count' => Enquiry::count()],
+                ['name' => "Visitors", 'count' => Tracking::count()],
+                            ],
+            'statistics' => []
+        ];
+    
+        // Rendering content with CSS and passing data to the view
         return $content
             ->css_file(Admin::asset("open-admin/css/pages/dashboard.css"))
             ->title('Dashboard')
-            ->description('Description...')
-            ->row(Dashboard::title())
-            ->row(function (Row $row) {
-
-                $row->column(4, function (Column $column) {
-                    $column->append(Dashboard::environment());
-                });
-
-                $row->column(4, function (Column $column) {
-                    $column->append(Dashboard::extensions());
-                });
-
-                $row->column(4, function (Column $column) {
-                    $column->append(Dashboard::dependencies());
-                });
-            });
+            ->description('Summary of system statistics')
+            ->body(view('dashboard', compact('data')));
     }
+    
 }

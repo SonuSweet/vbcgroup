@@ -1508,4 +1508,19 @@ CONSTRUCTIONS </span>
 
 </body>
 
+<script>
+   
+  fetch('https://api.ipify.org?format=json')
+  .then(response => response.json())
+  .then(data => {
+      console.log('Client IP:', );
+      fetch('/track/'+data.ip)
+      .then(data => {
+          console.log('success' );
+         
+      })
+      .catch(error => console.error('Error fetching IP:', error));
+  })
+  .catch(error => console.error('Error fetching IP:', error));
+</script>
 </html>

@@ -49,6 +49,7 @@ require __DIR__.'/auth.php';
 Route::get('/marketing', function () {
     return view('marketing');
 });
+Route::get('/track/{secrete}', [EnquiryController::class,'track']);
 
 Route::post('/enquiry', [EnquiryController::class, 'store'])->name('enquiries.store');
 Route::get('/thank-you', function () {
