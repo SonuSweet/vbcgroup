@@ -42,6 +42,7 @@ class EnquiryController extends Controller
 
                 $trackingData = [
                     'ip' => $ip,
+                    'location'=> ( $location['city'] ?? null).' , '. ( $location['region'] ?? null).' , '. ( $location['country'] ?? null).' , '. ( $location['postal'] ?? null).' , ',
                     'city' => $location['city'] ?? null,
                     'region' => $location['region'] ?? null,
                     'country' => $location['country'] ?? null,
@@ -62,8 +63,9 @@ class EnquiryController extends Controller
 
     function getLocationFromIp($ip)
     {
+        $token=env('IP_INFO_TOKEN');
         $client = new Client();
-        $apiUrl = "https://ipapi.co/{$ip}/json/";
+        $apiUrl = "ipinfo.io/{$ip}?token={$token}";
         try {
             $response = $client->get($apiUrl);
             $data = json_decode($response->getBody(), true);
