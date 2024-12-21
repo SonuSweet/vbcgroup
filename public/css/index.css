@@ -460,6 +460,21 @@
     border-left: 1px solid;
     margin-bottom: 30px;
   }
+
+
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: 100vh; /* Ensure the hero section matches the viewport height on mobile */
+  }
+
+  .herovideo {
+    /* Full width of the section */
+    height: 100%; /* Full height of the section */
+    object-fit: cover; /* Maintain aspect ratio while covering the section */
+  }
+}
   
 
 /* Popup styling */
@@ -526,6 +541,9 @@
     font-size: 20px;
     color: #555;
 }
+
+
+
 
 /* Disable scrolling when the popup is open */
 body.popup-open {

@@ -13,7 +13,7 @@
   <!-- Open Graph Meta Tags for Social Sharing -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vbcgroup.in"> <!-- Replace with your website URL -->
-  <meta property="og:title" content="VBC Group - Construction and Innovation">
+  <meta property="og:title" content="VBC Group -Growing with care">
   <meta property="og:description" content="Discover innovative construction solutions with VBC Group. Your trusted partner in construction, research, and design.">
   <meta property="og:image" content="{{ asset('photo/photos/ads.png') }}"> <!-- Replace with your thumbnail image URL -->
   <meta property="og:image:alt" content="VBC Group Logo">
@@ -52,7 +52,7 @@
     <div class="header-bottom">
       <div class="container">
 
-        <a href="#" class="logo">
+        <a href="/" class="logo">
           <img src="{{ asset('photo/photos/vbclogo.png') }}"  alt="VBC logo">
         </a>
 
@@ -60,7 +60,7 @@
 
           <div class="navbar-top">
 
-            <a href="#" class="logo">
+            <a href="/" class="logo">
               <img src="{{ asset('photo/photos/vbclogo.png') }}" alt="VBC logo">
             </a>
 
@@ -148,7 +148,7 @@
 
       <video autoplay loop muted plays-inline class="herovideo" > 
         
-        <source src="{{ asset('photo/video/video.mp4') }}" type="video/mp4"> </video>
+        <source src="{{ asset('photo/video/hero2.mp4') }}" type="video/mp4"> </video>
   
        
         <div class="container">
@@ -168,11 +168,8 @@ CONSTRUCTIONS </span>
             Crafting Opulent Living Spaces with International Quality, Precision, and Careful Aesthetics.
             </p> 
 
-            <button onclick="openPopup()" class="btn">Make An Enquiry</button>
-            <div style="display: flex; justify-content: space-between;">
-        
-    
-
+            <a href="/marketing" class="btn">Make An Enquiry</a>
+<div style="display: flex; justify-content: space-between;">
 
     <!-- Popup content -->
     <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
@@ -228,12 +225,11 @@ CONSTRUCTIONS </span>
 
             <p class="section-subtitle">About Us</p>
 
-            <h2 class="h2 section-title">The Leading Real Estate Rental Marketplace.</h2>
+            <h2 class="h2 section-title">Building Dreams, Creating Futures</h2>
 
             <p class="about-text">
-              Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage,
-              combined with
-              specialist services
+            VBC Group is a trusted name in real estate, delivering premium residential and commercial projects with excellence. Known for innovation, quality, 
+            and transparency, we create spaces that blend comfort, elegance, and functionality to match modern lifestyles.
             </p>
 
             <ul class="about-list">
@@ -277,7 +273,7 @@ CONSTRUCTIONS </span>
               and People-Driven Excellence, Setting New Standards in Real Estate."
             </p>
 
-            <a href="#service" class="btn" style="color:black; ">Our Services</a>
+            <a href="/marketing" class="btn" style="color:black; ">Know more</a>
 
           </div>
 
@@ -309,16 +305,15 @@ CONSTRUCTIONS </span>
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Buy a home</a>
+                  <a href="#">Commercial Construction</a>
                 </h3>
 
                 <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
+                Expert services in designing and constructing state-of-the-art commercial buildings.
                 </p>
 
-                <a href="#" class="card-link">
-                  <span>Find A Home</span>
+                <a href="/marketing" class="card-link">
+                  <span>Find A office</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </a>
@@ -334,15 +329,14 @@ CONSTRUCTIONS </span>
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Rent a home</a>
+                  <a href="/marketing">Residential Construction</a>
                 </h3>
 
                 <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
+                Crafting modern, sustainable, and luxurious residential spaces for comfortable living.
                 </p>
 
-                <a href="#" class="card-link">
+                <a href="/marketing" class="card-link">
                   <span>Find A Home</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -359,15 +353,14 @@ CONSTRUCTIONS </span>
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Sell a home</a>
+                  <a href="/marketing">Interior Renovation </a>
                 </h3>
 
                 <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
+                Transforming interiors with elegant designs and premium-quality materials for all spaces.
                 </p>
 
-                <a href="#" class="card-link">
+                <a href="/marketing" class="card-link">
                   <span>Find A Home</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -411,7 +404,7 @@ CONSTRUCTIONS </span>
       <!-- 
         - #PROPERTY
       -->
-
+<!-- 
       <section class="property" id="property">
         <div class="container">
 
@@ -901,7 +894,7 @@ CONSTRUCTIONS </span>
 
         </div>
       </section>
-
+ -->
 
 
 
@@ -1059,7 +1052,7 @@ CONSTRUCTIONS </span>
       <!-- 
         - #BLOG
       -->
-
+<!-- 
       <section class="blog" id="blog">
         <div class="container">
 
@@ -1230,7 +1223,7 @@ CONSTRUCTIONS </span>
 
         </div>
       </section>
-
+ -->
 
 
 
@@ -1309,7 +1302,7 @@ CONSTRUCTIONS </span>
               <a href="mailto:potla.rama@gmail.com" class="contact-link">
                 <ion-icon name="mail-outline"></ion-icon>
 
-                <span>potla.rama@gmail.com</span>
+                <span>marketing.vbcgroup.in</span>
               </a>
             </li>
 
@@ -1318,25 +1311,25 @@ CONSTRUCTIONS </span>
           <ul class="social-list">
 
             <li>
-              <a href="#" class="social-link">
+              <a href="/marketing" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="/marketing" class="social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="/marketing" class="social-link">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="/marketing" class="social-link">
                 <ion-icon name="logo-youtube"></ion-icon>
               </a>
             </li>
@@ -1354,37 +1347,26 @@ CONSTRUCTIONS </span>
             </li>
 
         <li>
-              <a href="#" class="footer-link">Who we are</a>
+              <a href="/marketing" class="footer-link">Who we are</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">What we do</a>
+              <a href="/marketing" class="footer-link">What we do</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Contact Us</a>
+              <a href="/marketing" class="footer-link">Contact Us</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Blog</a>
+              <a href="/marketing" class="footer-link">Blog</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Career</a>
+              <a href="/marketing" class="footer-link">Career</a>
             </li>
 
-            <li>
-              <a href="#" class="footer-link">Media centre</a>
-            </li>
-
-
-            <li>
-              <a href="#" class="footer-link">Faq</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Investor</a>
-            </li>
+           
 
           </ul>
 
@@ -1395,27 +1377,27 @@ CONSTRUCTIONS </span>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Projects</a>
+              <a href="/marketing" class="footer-link">Projects</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Wish List</a>
+              <a href="/marketing" class="footer-link">Wish List</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Login</a>
+              <a href="/marketing" class="footer-link">Login</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">My account</a>
+              <a href="/marketing" class="footer-link">My account</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Terms & Conditions</a>
+              <a href="/marketing" class="footer-link">Terms & Conditions</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Promotional Offers</a>
+              <a href="/marketing" class="footer-link">Promotional Offers</a>
             </li>
 
           </ul>
@@ -1427,27 +1409,27 @@ CONSTRUCTIONS </span>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Hyderabad</a>
+              <a href="/marketing" class="footer-link">Hyderabad</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Banglore</a>
+              <a href="/marketing" class="footer-link">Banglore</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Mysore</a>
+              <a href="/marketing" class="footer-link">Mysore</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Vizag</a>
+              <a href="/marketing" class="footer-link">Vizag</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Kochi</a>
+              <a href="/marketing" class="footer-link">Kochi</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Pune</a>
+              <a href="/marketing" class="footer-link">Pune</a>
             </li>
 
           </ul>
@@ -1461,7 +1443,7 @@ CONSTRUCTIONS </span>
       <div class="container">
 
         <p class="copyright">
-          &copy; 2024 <a href="#">VBC Group</a>. All Rights Reserved
+          &copy; 2024 <a href="/">VBC Group</a>. All Rights Reserved
         </p>
 
       </div>
