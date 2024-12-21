@@ -43,6 +43,7 @@ class EnquiryController extends Controller
                 $trackingData = [
                     'ip' => $ip,
                     'apiUrl'=>$location['apiUrl'],
+                    'apiUrl'=>$location['apiUrl'],
                     'location'=> ( $location['city'] ?? null).' , '. ( $location['region'] ?? null).' , '. ( $location['country'] ?? null).' , '. ( $location['postal'] ?? null).' , ',
                     'city' => $location['city'] ?? null,
                     'region' => $location['region'] ?? null,
@@ -54,7 +55,7 @@ class EnquiryController extends Controller
 
                 $data=  Tracking::create($trackingData);
 
-                $data=  $trackingData;
+                $data=  $location;
             }
         } catch (\Exception $e) {
             Log::error('Error tracking IP: ' . $e->getMessage());
