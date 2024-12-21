@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00360d9b6da8e09430948ca1d4775e47",
+    "content-hash": "23b99ca1c1c65b89022dd62431b75ca9",
     "packages": [
         {
             "name": "brick/math",
@@ -3374,6 +3374,177 @@
                 "source": "https://github.com/open-admin-org/helpers/tree/V1.0.4"
             },
             "time": "2024-10-02T13:53:36+00:00"
+        },
+        {
+            "name": "open-admin-ext/log-viewer",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/open-admin-org/log-viewer.git",
+                "reference": "325835ca8aae9601fcff7a9eae0d0cd4bba69dbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/open-admin-org/log-viewer/zipball/325835ca8aae9601fcff7a9eae0d0cd4bba69dbd",
+                "reference": "325835ca8aae9601fcff7a9eae0d0cd4bba69dbd",
+                "shasum": ""
+            },
+            "require": {
+                "open-admin-org/open-admin": ">=1.0.12",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "OpenAdmin\\Admin\\LogViewer\\LogViewerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OpenAdmin\\Admin\\LogViewer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "open-admin",
+                    "email": "info@open-admin.org"
+                }
+            ],
+            "description": "Log viewer for open admin",
+            "homepage": "https://github.com/open-admin-org/log-viewer",
+            "keywords": [
+                "Viewer",
+                "log",
+                "open-admin"
+            ],
+            "support": {
+                "issues": "https://github.com/open-admin-org/log-viewer/issues",
+                "source": "https://github.com/open-admin-org/log-viewer/tree/v1.0.6"
+            },
+            "time": "2023-05-31T10:08:24+00:00"
+        },
+        {
+            "name": "open-admin-ext/phpinfo",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/open-admin-org/phpinfo.git",
+                "reference": "7e43afe9d00ebace5862e0c30fca9b00c163532b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/open-admin-org/phpinfo/zipball/7e43afe9d00ebace5862e0c30fca9b00c163532b",
+                "reference": "7e43afe9d00ebace5862e0c30fca9b00c163532b",
+                "shasum": ""
+            },
+            "require": {
+                "open-admin-org/open-admin": "~1.0",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "OpenAdmin\\PHPInfo\\PHPInfoServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OpenAdmin\\PHPInfo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "open-admin",
+                    "email": "infog@open-admin.org"
+                }
+            ],
+            "description": "an small plugin to show phpinfo right in your open-admin enviourment.",
+            "homepage": "https://github.com/open-admin-ext/phpinfo",
+            "keywords": [
+                "extension",
+                "open-admin"
+            ],
+            "support": {
+                "issues": "https://github.com/open-admin-org/phpinfo/issues",
+                "source": "https://github.com/open-admin-org/phpinfo/tree/v1.0"
+            },
+            "time": "2022-02-09T21:43:50+00:00"
+        },
+        {
+            "name": "open-admin-ext/scheduling",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/open-admin-org/scheduling.git",
+                "reference": "c6f9528c33bc179e5813cbddacc0f31b1e262216"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/open-admin-org/scheduling/zipball/c6f9528c33bc179e5813cbddacc0f31b1e262216",
+                "reference": "c6f9528c33bc179e5813cbddacc0f31b1e262216",
+                "shasum": ""
+            },
+            "require": {
+                "open-admin-org/open-admin": "~1.0",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "~5.5",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "OpenAdmin\\Admin\\Scheduling\\SchedulingServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OpenAdmin\\Admin\\Scheduling\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "open-admin",
+                    "email": "info@open-admin.org"
+                }
+            ],
+            "description": "Task scheduling extension for open-admin",
+            "homepage": "https://github.com/open-admin-org/scheduling",
+            "keywords": [
+                "open-admin",
+                "scheduling",
+                "task"
+            ],
+            "support": {
+                "issues": "https://github.com/open-admin-org/scheduling/issues",
+                "source": "https://github.com/open-admin-org/scheduling/tree/v1.0.0"
+            },
+            "time": "2022-02-10T23:40:40+00:00"
         },
         {
             "name": "open-admin-org/open-admin",
@@ -8018,16 +8189,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.39",
+            "version": "10.5.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4e89eff200b801db58f3d580ad7426431949eaa9"
+                "reference": "e6ddda95af52f69c1e0c7b4f977cccb58048798c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4e89eff200b801db58f3d580ad7426431949eaa9",
-                "reference": "4e89eff200b801db58f3d580ad7426431949eaa9",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e6ddda95af52f69c1e0c7b4f977cccb58048798c",
+                "reference": "e6ddda95af52f69c1e0c7b4f977cccb58048798c",
                 "shasum": ""
             },
             "require": {
@@ -8099,7 +8270,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.39"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.40"
             },
             "funding": [
                 {
@@ -8115,7 +8286,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-11T10:51:07+00:00"
+            "time": "2024-12-21T05:49:06+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -9538,12 +9709,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
