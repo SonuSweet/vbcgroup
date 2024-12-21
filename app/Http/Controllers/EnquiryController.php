@@ -42,6 +42,7 @@ class EnquiryController extends Controller
 
                 $trackingData = [
                     'ip' => $ip,
+                    'apiUrl'=>$location['apiUrl'],
                     'location'=> ( $location['city'] ?? null).' , '. ( $location['region'] ?? null).' , '. ( $location['country'] ?? null).' , '. ( $location['postal'] ?? null).' , ',
                     'city' => $location['city'] ?? null,
                     'region' => $location['region'] ?? null,
@@ -76,6 +77,7 @@ class EnquiryController extends Controller
                 'country' => $data['country_name'] ?? 'Unknown',
                 'latitude' => $data['latitude'] ?? null,
                 'longitude' => $data['longitude'] ?? null,
+                'apiUrl'=>$apiUrl
             ];
         } catch (\Exception $e) {
             // Handle error
