@@ -1417,6 +1417,24 @@ body.popup-open {
     .hero-content { max-width: 400px; }
   
   
+
+
+
+
+    @media (max-width: 768px) {
+      .hero {
+        padding-block: 20px; /* Reduce padding for smaller screens */
+      }
+    
+      .hero-content {
+        margin-bottom: 40px; /* Adjust spacing */
+      }
+    
+      .herovideo {
+        height: 100%; /* Ensures video adapts fully to mobile screen height */
+      }
+    }
+    
   
     /**
      * ABOUT

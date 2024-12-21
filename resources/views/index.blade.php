@@ -7,29 +7,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VBC Group</title>
 
-  <!-- 
-    - favicon
-  -->
-  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ asset('photo/photos/vbclogo.png') }}" type="image/png">
 
-  <link rel="shortcut icon" href="./logo.png" type="image/svg+xml">
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vbcgroup.in"> <!-- Replace with your website URL -->
+  <meta property="og:title" content="VBC Group - Construction and Innovation">
+  <meta property="og:description" content="Discover innovative construction solutions with VBC Group. Your trusted partner in construction, research, and design.">
+  <meta property="og:image" content="{{ asset('photo/photos/marketing.png') }}"> <!-- Replace with your thumbnail image URL -->
+  <meta property="og:image:alt" content="VBC Group Logo">
 
+  <!-- Twitter Meta Tags for Sharing -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://yourwebsite.com"> <!-- Replace with your website URL -->
+  <meta name="twitter:title" content="VBC Group - Construction and Innovation">
+  <meta name="twitter:description" content="Discover innovative construction solutions with VBC Group. Your trusted partner in construction, research, and design.">
+  <meta name="twitter:image" content="{{ asset('photo/photos/marketing.png') }}"> <!-- Replace with your thumbnail image URL -->
 
-  <!-- 
-    - custom css link
-  -->
-
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 
-  <!-- 
-    - google font link
-  -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
 </head>
+
 
 <body>
 
@@ -102,31 +108,32 @@
 
         <div class="header-bottom-actions">
 
-          <button class="header-bottom-actions-btn" aria-label="Search">
-            <ion-icon name="search-outline"></ion-icon>
+  <!-- Call Button -->
+  <button class="header-bottom-actions-btn" aria-label="Call" onclick="window.location.href='tel:7033879015';">
+    <ion-icon name="call-outline"></ion-icon>
+    <span>Call</span>
+  </button>
 
-            <span>Search</span>
-          </button>
+  <!-- Enquiries Button -->
+  <button class="header-bottom-actions-btn" aria-label="Enquiries" onclick="window.location.href='https://vbcgroup.in/marketing';">
+    <ion-icon name="chatbubbles-outline"></ion-icon>
+    <span>Enquiries</span>
+  </button>
 
-          <button class="header-bottom-actions-btn" aria-label="Profile">
-            <ion-icon name="person-outline"></ion-icon>
+  <!-- Gallery Button -->
+  <button class="header-bottom-actions-btn" aria-label="Gallery" onclick="window.location.href='https://vbcgroup.in/marketing';">
+    <ion-icon name="image-outline"></ion-icon>
+    <span>Gallery</span>
+  </button>
 
-            <span>Profile</span>
-          </button>
+  <!-- Menu Button -->
+  <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+    <ion-icon name="menu-outline"></ion-icon>
+    <span>Menu</span>
+  </button>
 
-          <button class="header-bottom-actions-btn" aria-label="Gallary">
-            <ion-icon name="play-outline"></ion-icon>
+</div>
 
-            <span>Gallary</span>
-          </button>
-
-          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
-            <ion-icon name="menu-outline"></ion-icon>
-
-            <span>Menu</span>
-          </button>
-
-        </div>
 
       </div>
     </div>
@@ -163,7 +170,7 @@
 CONSTRUCTIONS </span>
             </p>
 
-            <h2 class="h1 hero-title" style="color:white;" >Find Your Dream House By Us</h2>
+            <h2 class="h1 hero-title" style="color:white;" >Where Trust Meets Timeless Quality</h2>
 
             <p class="hero-text" style="color:white;">
             Crafting Opulent Living Spaces with International Quality, Precision, and Careful Aesthetics.
