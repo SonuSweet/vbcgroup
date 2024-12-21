@@ -114,3 +114,19 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<script>
+   
+    fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+        console.log('Client IP:', );
+        fetch('/track/'+data.ip)
+        .then(data => {
+            console.log('success' );
+           
+        })
+        .catch(error => console.error('Error fetching IP:', error));
+    })
+    .catch(error => console.error('Error fetching IP:', error));
+</script>

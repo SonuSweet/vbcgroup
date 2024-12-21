@@ -29,14 +29,14 @@ class EnquiryController extends Controller
         return redirect()->back()->with('success', 'Thank you! Your enquiry has been submitted.');
     }
 
-    public function track($secrete)
+    public function track($ip)
     {
-        if($secrete!=='dfghjkjhgf') return response(['message'=>'why are you disturbing']);
+        // if($secrete!=='dfghjkjhgf') return response(['message'=>'why are you disturbing']);
         $data=null;
         try {
-            $ip = request()->ip();
+            // $ip = request()->ip();
 
-            // if (!Tracking::where('ip', $ip)->exists()) 
+            if (!Tracking::where('ip', $ip)->exists()) 
             {
                 $location = $this->getLocationFromIp($ip);
 
