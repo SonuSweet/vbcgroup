@@ -65,7 +65,7 @@
 
     <!-- Contact Info -->
     <div class="contact-info">
-        <p>📞 Call: <a href="tel:9900928388">9900928388</a></p>
+        <p>📞 Call: <a href="tel:7033879015">7033879015</a></p>
         <p>📧 Email: <a href="mailto:marketing@vbcgroup.in">marketing@vbcgroup.in</a></p>
         <p>🏢 Visit Us: Sahu Rd, Rayasandra, Choodasandra, Hosa Road, Bengaluru 560099</p>
     </div>
