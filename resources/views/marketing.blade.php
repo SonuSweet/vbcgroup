@@ -38,12 +38,28 @@
         <h5>Enquire Now</h5>
         <form method="POST" action="{{ route('enquiries.store') }}">
             @csrf
-            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-            <input type="tel" name="mobile" class="form-control" placeholder="Your Mobile" required>
-            <input type="email" name="email" class="form-control" placeholder="Your Email (Optional)">
-            <button type="submit" class="btn-submit">Submit</button>
+            <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                @error('name')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
+            </div>
+            <div class="mb-3">
+                <input type="tel" name="mobile" class="form-control" placeholder="Your Mobile" required>
+                @error('mobile')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
+            </div>
+            <div class="mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Your Email (Optional)">
+                @error('email')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+    
 
    
 
