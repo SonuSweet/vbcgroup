@@ -77,7 +77,8 @@ class EnquiryController extends Controller
                 'country' => $data['country_name'] ?? 'Unknown',
                 'latitude' => $data['latitude'] ?? null,
                 'longitude' => $data['longitude'] ?? null,
-                'apiUrl'=>$apiUrl
+                'apiUrl'=>$apiUrl,
+                'data'=>$data
             ];
         } catch (\Exception $e) {
             // Handle error
