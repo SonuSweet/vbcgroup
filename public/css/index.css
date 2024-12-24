@@ -1273,7 +1273,28 @@ body.popup-open {
   /**
    * responsive for larger than 600px screen
    */
-  
+  /* Mobile View Styling */
+@media (max-width: 768px) {
+  .header-bottom .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; /* Remove top margin */
+  }
+
+  .header-bottom .logo img {
+    height: 60px; /* Slightly bigger size */
+    width: auto;
+    margin-top: 0; /* Ensure top margin is zero */
+    margin-inline: auto; /* Center horizontally */
+    padding-top: 0; /* Remove padding */
+  }
+}
+
+
+
+
+
   @media (min-width: 600px) {
   
     /**
@@ -1545,6 +1566,16 @@ body.popup-open {
     .header-top .wrapper { gap: 30px; }
   
   
+
+
+
+
+
+
+
+
+
+
   
     /**
      * HERO
