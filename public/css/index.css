@@ -290,7 +290,8 @@
   
 .header-bottom .logo img {
     position: middle;
-
+    margin-top: 0;
+    padding-top: 0;
     height: 50px;
     width: auto;
     margin-inline: auto; 
@@ -333,7 +334,10 @@
     margin-bottom: 25px;
   }
   
-  .navbar-top .logo img { width: 200px; }
+  .navbar-top .logo img { 
+    
+    height:230px;
+    width: 150px; }
   
   .nav-close-btn ion-icon {
     font-size: 20px;
