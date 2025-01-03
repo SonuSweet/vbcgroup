@@ -52,3 +52,43 @@ window.addEventListener("scroll", function () {
 
 
 
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const slider = document.querySelector(".slider");
+  const slides = document.querySelectorAll(".slide");
+  const prevButton = document.querySelector(".prev");
+  const nextButton = document.querySelector(".next");
+
+  let currentIndex = 0;
+  const slideWidth = slides[0].clientWidth; // Get the width of a single slide
+
+  // Show the next slide
+  const nextSlide = () => {
+      if (currentIndex < slides.length - 1) {
+          currentIndex++;
+      } else {
+          currentIndex = 0; // Loop back to the start
+      }
+      slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+  };
+
+  // Show the previous slide
+  const prevSlide = () => {
+      if (currentIndex > 0) {
+          currentIndex--;
+      } else {
+          currentIndex = slides.length - 1; // Loop to the end
+      }
+      slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+  };
+
+  // Add event listeners for buttons
+  prevButton.addEventListener("click", prevSlide);
+  nextButton.addEventListener("click", nextSlide);
+
+  // Auto-slide every 5 seconds
+  setInterval(nextSlide, 5000);
+});
+

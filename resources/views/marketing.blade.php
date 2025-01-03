@@ -27,7 +27,7 @@
 <div class="content-wrapper">
     <img src="{{ asset('photo/photos/vbclogo.png') }}" alt="VBC Oracle Sunrise Logo" class="logo">
     <div class="title">VBC ORACLE SUNRISE</div>
-    <div class="subtitle">Rayasandra, Hosa Road, Bangalore</div>
+    <!-- <div class="subtitle">Rayasandra, Hosa Road, Bangalore</div> -->
     <!-- Description Section -->
     <div class="description m-more-less-content" id="description">
         🏡 <strong>Welcome to VBC Oracle Sunrise – Your Dream Home Awaits!</strong>
@@ -79,9 +79,9 @@
 
     <!-- Contact Info -->
     <div class="contact-info">
-        <p>📞 Call: <a href="tel:7033879015">7033879015</a></p>
-        <p>📧 Email: <a href="mailto:marketing@vbcgroup.in">marketing@vbcgroup.in</a></p>
-        <p>🏢 Visit Us: Sahu Rd, Rayasandra, Choodasandra, Hosa Road, Bengaluru 560099</p>
+        <!-- <p>📞 Call: <a href="tel:7033879015">7033879015</a></p> -->
+        <!-- <p>📧 Email: <a href="mailto:marketing@vbcgroup.in">marketing@vbcgroup.in</a></p> -->
+        <p>🏢 Visit Us: Rayasandra, Hosa Road, Bengaluru 560099</p>
     </div>
 </div>
 

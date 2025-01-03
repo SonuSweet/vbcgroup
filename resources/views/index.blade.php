@@ -64,96 +64,7 @@
     - #HEADER
   -->
 
-  <header class="header" data-header>
-
-    <div class="overlay" data-overlay></div>
-
-    
-
-    <div class="header-bottom">
-      <div class="container">
-
-        <a href="/" class="logo">
-          <img src="{{ asset('photo/photos/vbclogo.png') }}"  alt="VBC logo">
-        </a>
-
-        <nav class="navbar" data-navbar>
-
-          <div class="navbar-top">
-
-            <a href="/" class="logo">
-              <img src="{{ asset('photo/photos/vbclogo.png') }}" alt="VBC logo">
-            </a>
-
-            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </div>
-
-          <div class="navbar-bottom">
-            <ul class="navbar-list">
-
-              <li>
-                <a href="/" class="navbar-link" data-nav-link>WHO WE ARE</a>
-              </li>
-
-              <li>
-                <a href="/" class="navbar-link" data-nav-link>WHAT WE DO</a>
-              </li>
-
-              <li>
-                <a href="/" class="navbar-link" data-nav-link>CONTACT US</a>
-              </li>
-
-              <li>
-                <a href="/" class="navbar-link" data-nav-link>BLOG</a>
-              </li>         
-
-              <li>
-                <a href="/" class="navbar-link" data-nav-link>MEDIA CENTRE</a>
-              </li>
-
-            </ul>
-          </div>
-
-        </nav>
-
-        <div class="header-bottom-actions">
-
-  <!-- Call Button -->
-  <button class="header-bottom-actions-btn" aria-label="Call" onclick="window.location.href='tel:7033879015';">
-    <ion-icon name="call-outline"></ion-icon>
-    <span>Call</span>
-  </button>
-
-  <!-- Enquiries Button -->
-  <button class="header-bottom-actions-btn" aria-label="Enquiries" onclick="window.location.href='https://vbcgroup.in/marketing';">
-    <ion-icon name="chatbubbles-outline"></ion-icon>
-    <span>Enquiries</span>
-  </button>
-
-  <!-- Gallery Button -->
-  <button class="header-bottom-actions-btn" aria-label="Gallery" onclick="window.location.href='https://vbcgroup.in/marketing';">
-    <ion-icon name="image-outline"></ion-icon>
-    <span>Gallery</span>
-  </button>
-
-  <!-- Menu Button -->
-  <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
-    <ion-icon name="menu-outline"></ion-icon>
-    <span>Menu</span>
-  </button>
-
-</div>
-
-
-      </div>
-    </div>
-
-  </header>
-
-
+  @include('section.header') <!-- Header Include -->
 
 
 
@@ -294,7 +205,7 @@ CONSTRUCTIONS </span>
               and People-Driven Excellence, Setting New Standards in Real Estate."
             </p>
 
-            <a href="/marketing" class="btn" style="color:black; ">Know more</a>
+            <a href="/oraclesunrise" class="btn" style="color:black; ">Know more</a>
 
           </div>
 
@@ -395,6 +306,94 @@ CONSTRUCTIONS </span>
         </div>
       </section>
 
+
+
+
+
+<!-- project -->
+
+<section class="property" id="property">
+  <div class="container">
+    <p class="section-subtitle">Properties</p>
+    <h2 class="h2 section-title">Our Project</h2>
+
+    <div id="scroll-container">
+      <div class="scroll-slider">
+        <!-- Property Card 1 -->
+        <div class="scroll-slide">
+          <figure class="card-banner">
+            <a href="/oraclesunrise">
+              <img src="{{ asset('photo/images/sunrise.jpg') }}" alt="Modern Apartment">
+            </a>
+          </figure>
+          <div class="card-content">
+            <h3 class="card-title"><a href="/oraclesunrise">VBC Oracle Sunrise</a></h3>
+            <p class="card-text">Discover 2 & 3 BHK homes near Sarjapur, blending comfort, 
+              elegance, and prime location convenience</p>
+           
+          </div>
+        </div>
+
+        <!-- Property Card 2 -->
+        <div class="scroll-slide">
+          <figure class="card-banner">
+            <a href="#project2">
+              <img src="{{ asset('photo/images/icon.jpg') }}" alt="Elegant Villa">
+            </a>
+          </figure>
+          <div class="card-content">
+            <h3 class="card-title"><a href="#project2">Oracle Icon </a></h3>
+            <p class="card-text">Premium commercial spaces crafted for modern businesses with unmatched elegance.</p>
+          </div>
+        </div>
+
+        <!-- Property Card 3 -->
+
+
+        <!-- <div class="scroll-slide">
+          <figure class="card-banner">
+            <a href="#project3">
+              <img src="{{ asset('photo/images/property-3.jpg') }}" alt="Cozy House">
+            </a>
+          </figure>
+          <div class="card-content">
+            <h3 class="card-title"><a href="#project3">Cozy House</a></h3>
+            <p class="card-text">A place to call home.</p>
+          </div>
+        </div> -->
+
+        <div class="scroll-slide">
+          <figure class="card-banner">
+            <a href="#project3">
+              <img src="{{ asset('photo/images/rain.jpg') }}" alt="Cozy House">
+            </a>
+          </figure>
+          <div class="card-content">
+            <h3 class="card-title"><a href="#project3">Rainbow 
+            Children Hospital</a></h3>
+            <p class="card-text">World-class pediatric care with expert doctors, advanced tech, and compassionate support for children.</p>
+          </div>
+        </div>
+
+        <!-- Add more property cards as needed -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- project  -->
+
+
+
+
+
+
+
+
+
+
       <section class="service" id="service" Style="back">
         <div class="container">
 
@@ -426,501 +425,9 @@ CONSTRUCTIONS </span>
         - #PROPERTY
       -->
 <!-- 
-      <section class="property" id="property">
-        <div class="container">
 
-          <p class="section-subtitle">Properties</p>
 
-          <h2 class="h2 section-title">Featured Listings</h2>
-
-          <ul class="property-list has-scrollbar">
-
-            <li>
-              <div class="property-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="{{ asset('photo/images/property-1.jpg') }}" alt="New Apartment Nice View" class="w-100">
-                  </a>
-
-                  <div class="card-badge green">For Rent</div>
-
-                  <div class="banner-actions">
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
-
-                      <address>Rampally, Hyderabad</address>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
-
-                      <span>4</span>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
-
-                      <span>2</span>
-                    </button>
-
-                  </div>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-price">
-                    <strong>₹34,900</strong>/Month
-                  </div>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">New Apartment Nice View</a>
-                  </h3>
-
-                  <p class="card-text">
-                  Escape to Serene Haven: VBC Group's 4-BHK Luxury Villa - A Symphony of Comfort and Elegance
-                  </p>
-
-                  <ul class="card-list">
-
-                    <li class="card-item">
-                      <strong>3</strong>
-
-                      <ion-icon name="bed-outline"></ion-icon>
-
-                      <span>Bedrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>2</strong>
-
-                      <ion-icon name="man-outline"></ion-icon>
-
-                      <span>Bathrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>3450</strong>
-
-                      <ion-icon name="square-outline"></ion-icon>
-
-                      <span>Square Ft</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div class="card-footer">
-
-                  <div class="card-author">
-
-                    <figure class="author-avatar">
-                      <img src="{{ asset('photo/images/author.jpg') }} " alt="Sonu Sah" class="w-100">
-                    </figure>
-
-                    <div>
-                      <p class="author-name">
-                        <a href="#">Sonu Sah</a>
-                      </p>
-
-                      <p class="author-title">Estate Agents</p>
-                    </div>
-
-                  </div>
-
-                  <div class="card-footer-actions">
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="resize-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="add-circle-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="property-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="{{ asset('photo/images/property-2.jpg') }}" alt="Modern Apartments" class="w-100">
-                  </a>
-
-                  <div class="card-badge orange">For Sales</div>
-
-                  <div class="banner-actions">
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
-
-                      <address>Rampally, hyderabad</address>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
-
-                      <span>4</span>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
-
-                      <span>2</span>
-                    </button>
-
-                  </div>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-price">
-                    <strong>₹34,000</strong>/Month
-                  </div>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Modern Apartments</a>
-                  </h3>
-
-                  <p class="card-text">
-                  Indulge in Opulence: Royal Retreat Villa by VBC Group - Where Panoramic Views Meet Luxurious Living.
-                  </p>
-
-                  <ul class="card-list">
-
-                    <li class="card-item">
-                      <strong>3</strong>
-
-                      <ion-icon name="bed-outline"></ion-icon>
-
-                      <span>Bedrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>2</strong>
-
-                      <ion-icon name="man-outline"></ion-icon>
-
-                      <span>Bathrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>3450</strong>
-
-                      <ion-icon name="square-outline"></ion-icon>
-
-                      <span>Square Ft</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div class="card-footer">
-
-                  <div class="card-author">
-
-                    <figure class="author-avatar">
-                      <img src=".{{ asset('photo/images/author.jpg') }} " alt="Sonu Sah" class="w-100">
-                    </figure>
-
-                    <div>
-                      <p class="author-name">
-                        <a href="#">Sonu Sah</a>
-                      </p>
-
-                      <p class="author-title">Estate Agents</p>
-                    </div>
-
-                  </div>
-
-                  <div class="card-footer-actions">
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="resize-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="add-circle-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="property-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="{{ asset('photo/images/property-3.jpg') }}" alt="Comfortable Apartment" class="w-100">
-                  </a>
-
-                  <div class="card-badge green">For Rent</div>
-
-                  <div class="banner-actions">
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
-
-                      <address>Rampally, Hyderabad</address>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
-
-                      <span>4</span>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
-
-                      <span>2</span>
-                    </button>
-
-                  </div>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-price">
-                    <strong>₹34,900</strong>/Month
-                  </div>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Comfortable Apartment</a>
-                  </h3>
-
-                  <p class="card-text">
-                  Nature's Embrace: VBC Group's Tranquil Oasis Villa - 3-BHK Bliss in a Serene, Idyllic Setting.
-                  </p>
-
-                  <ul class="card-list">
-
-                    <li class="card-item">
-                      <strong>3</strong>
-
-                      <ion-icon name="bed-outline"></ion-icon>
-
-                      <span>Bedrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>2</strong>
-
-                      <ion-icon name="man-outline"></ion-icon>
-
-                      <span>Bathrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>3450</strong>
-
-                      <ion-icon name="square-outline"></ion-icon>
-
-                      <span>Square Ft</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div class="card-footer">
-
-                  <div class="card-author">
-
-                    <figure class="author-avatar">
-                      <img src="{{ asset('photo/images/author.jpg') }} " alt="Sonu Sah" class="w-100">
-                    </figure>
-
-                    <div>
-                      <p class="author-name">
-                        <a href="#">Sonu Sah</a>
-                      </p>
-
-                      <p class="author-title">Estate Agents</p>
-                    </div>
-
-                  </div>
-
-                  <div class="card-footer-actions">
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="resize-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="add-circle-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="property-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="{{ asset('photo/images/property-4.png') }}" alt="Luxury villa in Rego Park" class="w-100">
-                  </a>
-
-                  <div class="card-badge green">For Rent</div>
-
-                  <div class="banner-actions">
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
-
-                      <address>Rampally, Hyderabad</address>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
-
-                      <span>4</span>
-                    </button>
-
-                    <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
-
-                      <span>2</span>
-                    </button>
-
-                  </div>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-price">
-                    <strong>₹34,900</strong>/Month
-                  </div>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Luxury villa in Rego Park</a>
-                  </h3>
-
-                  <p class="card-text">
-                  Unleash Luxury: VBC Group's 6-BHK Elegant Bliss Villa - Modern Marvel for Sophisticated Living.
-
-                  </p>
-
-                  <ul class="card-list">
-
-                    <li class="card-item">
-                      <strong>3</strong>
-
-                      <ion-icon name="bed-outline"></ion-icon>
-
-                      <span>Bedrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>2</strong>
-
-                      <ion-icon name="man-outline"></ion-icon>
-
-                      <span>Bathrooms</span>
-                    </li>
-
-                    <li class="card-item">
-                      <strong>3450</strong>
-
-                      <ion-icon name="square-outline"></ion-icon>
-
-                      <span>Square Ft</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div class="card-footer">
-
-                  <div class="card-author">
-
-                    <figure class="author-avatar">
-                      <img src="{{ asset('photo/images/author.jpg') }} " alt="Sonu Sah" class="w-100">
-                    </figure>
-
-                    <div>
-                      <p class="author-name">
-
-
-
-                        <a href="#">Sonu Sah</a>
-                      </p>
-
-                      <p class="author-title">Estate Agents</p>
-                    </div>
-
-                  </div>
-
-                  <div class="card-footer-actions">
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="resize-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-
-                    <button class="card-footer-actions-btn">
-                      <ion-icon name="add-circle-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
- -->
-
-
-
-
-      <!-- 
+      
         - #FEATURES
       -->
 
@@ -1004,7 +511,7 @@ CONSTRUCTIONS </span>
                   <ion-icon name="library-outline"></ion-icon>
                 </div>
 
-                <h3 class="card-title">Library Area</h3>
+                <h3 class="card-title">Gym & Track</h3>
 
                 <div class="card-btn">
                   <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -1020,7 +527,7 @@ CONSTRUCTIONS </span>
                   <ion-icon name="bed-outline"></ion-icon>
                 </div>
 
-                <h3 class="card-title">King Size Beds</h3>
+                <h3 class="card-title">King Size Room</h3>
 
                 <div class="card-btn">
                   <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -1065,6 +572,63 @@ CONSTRUCTIONS </span>
 
         </div>
       </section>
+
+
+
+
+      <!-- gallary -->
+      <section class="project-gallery" id="project-gallery">
+  <div class="container">
+    <p class="section-subtitle">Gallery</p>
+    <h2 class="h2 section-title">Project Gallery</h2>
+
+    <div id="gallery-container" class="gallery-scroll">
+      <div class="gallery-item" onclick="openFullscreen('{{ asset('photo/photos/a.jpg') }}')">
+        <img src="{{ asset('photo/photos/a.jpg') }}" alt="Project 1">
+        <div class="image-title">Swimming pool</div>
+      </div>
+
+      <div class="gallery-item" onclick="openFullscreen('{{ asset('photo/photos/b.jpg') }}')">
+        <img src="{{ asset('photo/photos/b.jpg') }}" alt="Project 2">
+        <div class="image-title">Main Gate</div>
+      </div>
+
+      <div class="gallery-item" onclick="openFullscreen('{{ asset('photo/photos/c.jpg') }}')">
+        <img src="{{ asset('photo/photos/c.jpg') }}" alt="Project 3">
+        <div class="image-title">Bed Room</div>
+      </div>
+
+      <div class="gallery-item" onclick="openFullscreen('{{ asset('photo/photos/d.jpg') }}')">
+        <img src="{{ asset('photo/photos/d.jpg') }}" alt="Project 4">
+        <div class="image-title">Kings Size bed Room</div>
+      </div>
+
+      <div class="gallery-item" onclick="openFullscreen('{{ asset('photo/photos/e.jpg') }}')">
+        <img src="{{ asset('photo/photos/e.jpg') }}" alt="Project 5">
+        <div class="image-title">Kitchen Room</div>
+      </div>
+
+      <div class="gallery-item" onclick="openFullscreen('{{ asset('photo/photos/f.jpg') }}')">
+        <img src="{{ asset('photo/photos/f.jpg') }}" alt="Project 5">
+        <div class="image-title">Hall</div>
+      </div>
+
+      <!-- Add more items as needed -->
+    </div>
+  </div>
+
+  <div id="fullscreen-container" class="fullscreen-container">
+    <span class="close" onclick="closeFullscreen()">&times;</span>
+    <img id="fullscreen-image" src="" alt="Fullscreen View">
+  </div>
+</section>
+
+
+
+
+
+
+
 
 
 
@@ -1284,194 +848,7 @@ CONSTRUCTIONS </span>
     - #FOOTER
   -->
 
-  <footer class="footer">
-
-    <div class="footer-top">
-      <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="{{ asset('photo/photos/vbclogo.png') }}" class="w-100" alt="VBC logo">
-          </a>
-
-          <p class="section-text">
-          VBC: Elevating Living Standards with Precision and Care.
-           Experience the epitome of opulence as we celebrate life through meticulously crafted,
-            internationally acclaimed spaces. Your home, our commitment – VBC: Growing with Care.
-        </p>
-
-          <ul class="contact-list">
-
-            <li>
-              <a href="#" class="contact-link">
-                <ion-icon name="location-outline"></ion-icon>
-
-                <address>Beretana Agrahara, Hosur Main Road, Beretana Agrahara, Bangalore, Karnataka, India 560100</address>
-              </a>
-            </li>
-
-            <li>
-              <a href="tel:+91 94944 68858" class="contact-link">
-                <ion-icon name="call-outline"></ion-icon>
-
-                <span>+91 94944 68858</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="mailto:potla.rama@gmail.com" class="contact-link">
-                <ion-icon name="mail-outline"></ion-icon>
-
-                <span>marketing.vbcgroup.in</span>
-              </a>
-            </li>
-
-          </ul>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="/marketing" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-link-box">
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">Company</p>
-            </li>
-
-        <li>
-              <a href="/marketing" class="footer-link">Who we are</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">What we do</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Contact Us</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Blog</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Career</a>
-            </li>
-
-           
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">Services</p>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Projects</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Wish List</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Login</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">My account</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Terms & Conditions</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Promotional Offers</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">Project location</p>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Hyderabad</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Banglore</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Mysore</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Vizag</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Kochi</a>
-            </li>
-
-            <li>
-              <a href="/marketing" class="footer-link">Pune</a>
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2024 <a href="/">VBC Group</a>. All Rights Reserved
-        </p>
-
-      </div>
-    </div>
-
-  </footer>
-
+  @include('section.footer') <!-- Footer Include -->
 
 
 
@@ -1544,4 +921,36 @@ CONSTRUCTIONS </span>
   })
   .catch(error => console.error('Error fetching IP:', error));
 </script>
+
+
+
+
+<script>
+  const scrollContainer = document.getElementById('scroll-container');
+
+  scrollContainer.addEventListener('wheel', (event) => {
+    event.preventDefault();
+    scrollContainer.scrollLeft += event.deltaY;
+  });
+</script>
+
+
+<script>
+  function openFullscreen(imageSrc) {
+    const fullscreenContainer = document.getElementById('fullscreen-container');
+    const fullscreenImage = document.getElementById('fullscreen-image');
+
+    fullscreenImage.src = imageSrc;
+    fullscreenContainer.style.display = 'flex';
+  }
+
+  function closeFullscreen() {
+    const fullscreenContainer = document.getElementById('fullscreen-container');
+    fullscreenContainer.style.display = 'none';
+  }
+</script>
+
+
+
+
 </html>

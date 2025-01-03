@@ -55,3 +55,9 @@ Route::post('/enquiry', [EnquiryController::class, 'store'])->name('enquiries.st
 Route::get('/thank-you', function () {
     return view('thank-you');
 })->name('thank-you');
+
+
+
+Route::get('/oraclesunrise', function () {
+    return view('oraclesunrise');
+});
