@@ -610,7 +610,7 @@ CONSTRUCTIONS </span>
 
       <div class="gallery-item" onclick="openFullscreen('{{ asset('photo/photos/f.jpg') }}')">
         <img src="{{ asset('photo/photos/f.jpg') }}" alt="Project 5">
-        <div class="image-title">Hall</div>
+        <div class="image-title"> Main Hall</div>
       </div>
 
       <!-- Add more items as needed -->
